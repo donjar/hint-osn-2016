@@ -1,0 +1,12 @@
+img {
+  height: 100px;
+}
+
+header {
+  font-size: 90px;
+  vertical-align: middle;
+}
+
+#buttons {
+  float: left;
+}

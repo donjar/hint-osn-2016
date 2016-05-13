@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<title>Hint OSN Matematika SMA 2016</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css"></link>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header>
+				<img src="ktom.png" alt="Logo KTO Matematika"> X
+				<img src="oo.png" alt="Logo Olimpiade.org">
+			</header>
+
+			<section class="btn-group" role="group" aria-label="Nomor soal"
+										   id="buttons">
+				<button class="btn btn-lg btn-default" id="next-hint">Hint
+					selanjutnya</button>
+			</section>
+
+			<div class="clearfix"></div>
+			<main>
+			<p id="soal"></p>
+			<p id="hint-1"></p>
+			<p id="hint-2"></p>
+			<p id="hint-3"></p>
+			<p id="buka-oo"></p>
+			</main>
+		</div>
+	</body>
+</html>
